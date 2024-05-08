@@ -1,6 +1,41 @@
-remote_theme: jekyll/minima 
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Pat Bergan
 description: Poetry, prose, and other writing
+theme: minima 
+
+repository: patbergan/patbergan.github.io
+
+plugins:
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-include-cache
+
 show_downloads: false
+
+exclude:
+  - README.md
+  - Gemfile
+
+header_pages:
+  - about.md
+  - posts.md
+
+author:
+  name: Pat Bergan
+  email: "patbergan@protonmail.com"
+
+permalink: /:year/:month/:title/
+
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      show_date: true
+      share: true
+  - scope:
+      path: "_drafts"
+      type: posts
+    values:
+      layout: post
+      show_date: true

@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 list_title: "Latest Posts"
 ---
 
@@ -13,6 +13,7 @@ One day he'll put equations in his poems and poetry in his research. Today is no
 ### Prose
 
 - [I Booked an Online Advantage Fare](https://littleoldladycomedy.com/2021/08/24/i-booked-an-online-advantage-fare/)
+- [The King](/king)
 
 ### Poetry
 
